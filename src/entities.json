@@ -1,0 +1,45 @@
+{
+  "entities": [
+    {
+      "id": "venuetype_testing",
+      "name": "Test Centers",
+      "name_DE": "",
+      "iconUrl": "icon_iconTesting"
+    },
+    {
+      "id": "routes",
+      "name": "Routes",
+      "iconUrl": "icon_iconRoute"
+    },
+    {
+      "id": "venuetype_haus",
+      "name": "Haus",
+      "iconUrl": "icon_iconBrandhouse"
+    },
+    {
+      "id": "test-zentrum1",
+      "name": "Test Zentrum 2",
+      "description": "Test Zentrum description",
+      "parents": ["venuetype_testing"]
+    },
+    {
+      "id": "test-zentrum2",
+      "name": "Test Zentrum 2",
+      "description": "Test Zentrum description",
+      "parents": ["venuetype_testing", "route1"]
+    },
+    {
+      "id": "vier",
+      "name": "Vier Brandhouse",
+      "description": "Vier Description",
+      "parents": ["venuetype_haus"],
+      "iconUrl": "icon_iconBrandhouse"
+    },
+    {
+      "id": "route1",
+      "name": "Bus Route 1",
+      "description": "Bus Route",
+      "parents": ["routes"]
+    }
+  ]
+}
