@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fplan/app": "^1.0.10",
+    "@fplan/app": "^1.0.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
